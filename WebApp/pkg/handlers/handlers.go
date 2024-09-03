@@ -1,9 +1,8 @@
-package main
+package handlers
 
 import (
+	"bookings-udemy/pkg/render"
 	"net/http"
-
-	"github.com/sconqueror61/go-course/pkg/render"
 )
 
 // Home is the handler for the home page
